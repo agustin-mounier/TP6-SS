@@ -128,6 +128,7 @@ public class Particle {
 
     @Override
     public String toString() {
-        return id + "\t" + x + "\t" + y + "\t" + radius + "\t" + mass;
+        int vel =  (int)(Math.sqrt(velY*velY)*3);
+        return id + "\t" + x + "\t" + y + "\t" + radius + "\t" + mass + "\t" + vel + "\t" +0  + "\t" + 0;
     }
 }
